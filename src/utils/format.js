@@ -21,7 +21,7 @@ const weekdays = [
     "Sábado",
 ]
 
-function getSubject(subjectNumber){
+function getSubjects(subjectNumber){
     return subjects[+subjectNumber-1]
 }
 
@@ -30,5 +30,5 @@ function getSubject(subjectNumber){
 module.exports = {
     subjects,
     weekdays,
-    getSubject
+    getSubjects
 }
