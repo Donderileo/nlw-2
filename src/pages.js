@@ -74,13 +74,14 @@ async function saveClasses(req,res){
 
     const classScheduleValues = req.body.weekday.map((weekday, index) => {
 
-        return  {
+        return {
             weekday,
             time_from: convertHoursToMinutes(req.body.time_from[index]),
             time_to: convertHoursToMinutes(req.body.time_to[index])
         }
 
-    })
+    });
+
 
     try {
         const db = await Database

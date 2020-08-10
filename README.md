@@ -9,5 +9,35 @@ A proposta do projeto Proffy é uma aplicação web que possa ligar alunos a pro
 * Alunos podem procurar professores para terem aulas sobre uma disciplina
 * Professores podem encontrar alunos para o que lecionam
 
+## 🚀 Tecnologias utilizadas
 
+O projeto está desenvolvido utilizando as seguintes tecnologias:
 
+- HTML
+- CSS
+- JavaScript
+- Node.js 
+- Nunjucks 
+- SQLite 
+
+--- 
+
+## Como executar o projeto
+
+```bash
+# Clonar o repositório
+git clone https://github.com/guilhermecapitao/proffy-discovery
+
+# Entrar no diretório
+cd proffy-discovery
+
+# Baixar as dependências
+npm i
+
+# Executar o servidor
+npm run dev
+```
+
+Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+
+---
